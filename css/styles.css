@@ -1,0 +1,110 @@
+body{
+    background-color: slategrey;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    padding: 0 60px; /* haal dit weg om de witte randen weg te halen*/
+}
+
+#Ingredienten {
+    font-family: 'Vollkorn', serif;
+    font-size: 13px;
+    color: #585858;
+    text-align: left;
+    background-color: #faddf1;
+    padding: 10px 10px 1px;
+}
+
+#Bereiding {
+    font-family: 'Vollkorn', serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    justify-content: center;
+    /*padding-left: 20px;*/
+}
+
+.pinkBlock{
+    float: left;
+    height: 40px;
+    width: 20px;
+    min-height: 40px;
+    min-width: 20px;
+    background-color: deeppink;
+    margin-left: -25px;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+
+.upper-margin{
+    margin-top: 20px;
+}
+
+#taart{
+    background-image: url("../images/taart.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+hr {
+    border-top: 2px solid rgba(217,63,200,.2);
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    padding-left: 40px;
+}
+ol li {
+    margin-bottom: 2px;
+    counter-increment: my-awesome-counter;
+}
+ol li::before {
+    margin-left: -30px;
+    margin-right: 16px;
+    content: counter(my-awesome-counter) ".";
+    color: #d93fc8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+ul li{
+    margin-bottom: 4px;
+}
+
+@font-face {
+    font-family: 'Kitty Kat';
+    src: url('../webfonts/KittyKatt.ttf');
+}
+
+h1{
+    font-family: 'Kitty Kat', 'sans-serif', sans-serif;
+    color: deeppink;
+}
+
+h2,h3,h5{
+    font-family: 'Vollkorn', serif;
+}
+
+p{
+    font-family: 'Vollkorn', serif;
+    font-size: larger;
+}
