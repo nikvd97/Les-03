@@ -1,0 +1,64 @@
+#RozeKitKatTaart {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pinkText{
+    color:rgb(255, 0, 234);
+}
+
+#Header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center
+}
+
+#images {
+    text-align: center;
+    padding: 20px 30px 2px 40px;
+}
+
+#introtext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+    padding: 1px 30px 2px 40px;
+}
+
+#Ingredienten {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    background-color: rgb(219, 127, 255);
+    max-width: 300px;
+    padding: 10px 10px 5px;
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+#Bereiding {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    display: inline-block;
+    justify-content: center;
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+}
+
+#inlineDivs{
+    text-align: center;
+}
+
+ul {
+    list-style: inside;
+}
+
+ol {
+    list-style: decimal;
+}
